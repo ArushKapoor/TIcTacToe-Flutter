@@ -14,15 +14,14 @@ class _IntroScreenState extends State<IntroScreen> {
   static double fontHeightTitle = 0.0;
 
   static var myNewFont = GoogleFonts.pressStart2P(
-    textStyle: TextStyle(color: Colors.black, letterSpacing: 3),
+    textStyle: TextStyle(color: Colors.black),
   );
   static var myNewFontWhite = GoogleFonts.pressStart2P(
     textStyle:
         TextStyle(color: Colors.white, letterSpacing: 3, fontSize: fontHeight),
   );
   static var myTitleFont = GoogleFonts.pressStart2P(
-    textStyle: TextStyle(
-        color: Colors.white, letterSpacing: 3, fontSize: fontHeightTitle),
+    textStyle: TextStyle(color: Colors.white, fontSize: fontHeightTitle),
   );
   @override
   Widget build(BuildContext context) {

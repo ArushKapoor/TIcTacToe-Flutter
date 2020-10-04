@@ -27,11 +27,10 @@ class _HomePageState extends State<HomePage> {
   static double fontHeight = 0.0;
 
   static var myNewFont = GoogleFonts.pressStart2P(
-    textStyle: TextStyle(color: Colors.black, letterSpacing: 3),
+    textStyle: TextStyle(color: Colors.black),
   );
   static var myNewFontWhite = GoogleFonts.pressStart2P(
-    textStyle:
-        TextStyle(color: Colors.white, letterSpacing: 3, fontSize: fontHeight),
+    textStyle: TextStyle(color: Colors.white, fontSize: fontHeight),
   );
 
   @override
